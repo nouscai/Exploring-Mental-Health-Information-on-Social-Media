@@ -8,7 +8,7 @@ label_columns = ['Spiritual', 'Physical', 'Intellectual', 'Social', 'Vocational'
 st.set_page_config(page_title="Mental Health Insights", page_icon=None, layout="wide")
 page_bg_img = '''
 <style>
-.st-emotion-cache-z5fcl4 {padding: 2rem 1rem 4rem}
+.st-emotion-cache-1jicfl2 {padding: 2rem 1rem 4rem}
 </style>
 '''
 st.markdown(page_bg_img, unsafe_allow_html=True)
