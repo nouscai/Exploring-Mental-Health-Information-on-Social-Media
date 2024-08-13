@@ -5,7 +5,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification, Trai
 import os
 label_columns = ['Spiritual', 'Physical', 'Intellectual', 'Social', 'Vocational', 'Emotional']
 
-st.set_page_config(page_title="Mental Health on Social Media: Understanding People's Emotions and Interactions", page_icon=None, layout="wide")
+st.set_page_config(page_title="Mental Health Insights", page_icon=None, layout="wide")
 page_bg_img = '''
 <style>
 .st-emotion-cache-z5fcl4 {padding: 2rem 1rem 4rem}
@@ -13,7 +13,7 @@ page_bg_img = '''
 '''
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
-st.markdown("<h1 style='text-align: center'>Mental Health Insights</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center'>Mental Health on Social Media: Understanding People's Emotions and Interactions</h1>", unsafe_allow_html=True)
 output = './downloaded_file.zip'
 model_save_path = './content/saved_model/'
 if not os.path.exists(model_save_path):
