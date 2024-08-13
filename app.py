@@ -5,7 +5,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification, Trai
 import os
 label_columns = ['Spiritual', 'Physical', 'Intellectual', 'Social', 'Vocational', 'Emotional']
 
-st.set_page_config(page_title="Mental Health Insights", page_icon=None, layout="wide")
+st.set_page_config(page_title="Mental Health on Social Media: Understanding People's Emotions and Interactions", page_icon=None, layout="wide")
 page_bg_img = '''
 <style>
 .st-emotion-cache-z5fcl4 {padding: 2rem 1rem 4rem}
