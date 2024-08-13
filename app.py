@@ -72,10 +72,7 @@ if selected == "Topics":
         f.close()
         st.components.v1.html(res, height=800, scrolling=True)
 elif selected == "Application":
-    with st.spinner('model load...'):
-        # 加载保存的模型和 tokenizer
-        loaded_model = AutoModelForSequenceClassification.from_pretrained(model_save_path)
-        loaded_tokenizer = AutoTokenizer.from_pretrained(model_save_path)
+
     col1, col2, col3 = st.columns([2, 6, 2])
     
     with col2:
@@ -86,6 +83,10 @@ elif selected == "Application":
             height=200
         )
         if st.button("explore", type='primary'):
+            with st.spinner('model load...'):
+                # 加载保存的模型和 tokenizer
+                loaded_model = AutoModelForSequenceClassification.from_pretrained(model_save_path)
+                loaded_tokenizer = AutoTokenizer.from_pretrained(model_save_path)            
             inputs = loaded_tokenizer([inp], padding="max_length", truncation=True, max_length=512, return_tensors="pt")
             
             # 模型推理
