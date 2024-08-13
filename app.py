@@ -102,39 +102,39 @@ elif selected == 'Sharing':
     with col1:
         st.page_link("https://www.webmd.com/mental-health/how-does-mental-health-affect-physical-health", 
                      label="*How Does Mental Health Affect Physical Health - WebMD*")
-        st.image('./imgs/Mental Health and Well-being/M1.png')
+        st.image('./imgs/M1.png')
         st.divider()
         st.page_link("https://www.psychiatry.org/news-room/apa-blogs/purpose-in-life-less-stress-better-mental-health", 
                      label="Purpose in Life Can Lead to Less Stress, Better Mental Well-Being - American\n- Psychiatric Association")
-        st.image('./imgs/Mental Health and Well-being/M4.png')
+        st.image('./imgs/M4.png')
         st.divider()
         st.page_link("https://mhanational.org/live-your-life-well", 
                      label="Live Your Life Well - Mental Health America")
-        st.image('./imgs/Mental Health and Well-being/M6.png')
+        st.image('./imgs/M6.png')
         st.divider()
         
         st.page_link("https://www.sciencedaily.com/news/mind_brain/mental_health/", 
                      label="Mental Health News - ScienceDaily")
-        st.image('./imgs/Mental Health and Well-being/M8.png')
+        st.image('./imgs/M8.png')
         st.divider()
     with col2:
         st.page_link("https://www.cdc.gov/mentalhealth/learn/index.htm", 
                      label="About Mental Health - Centers for Disease Control and Prevention")
         
-        st.image('./imgs/Mental Health and Well-being/M2.png')
+        st.image('./imgs/M2.png')
         st.divider()
         st.page_link("https://www.psychologytoday.com/us/blog/finding-a-new-home/202302/a-surprising-secret-to-happiness-intense-emotions", 
                      label="A Surprising Secret to Happiness - Psychology Today")
-        st.image('./imgs/Mental Health and Well-being/M3.png')
+        st.image('./imgs/M3.png')
         st.divider()
         st.page_link("https://childmind.org/article/support-friend-with-mental-health-challenges/", 
                      label="How to Support a Friend with Mental Health Challenges - Child Mind Institute")
-        st.image('./imgs/Mental Health and Well-being/M5.png')
+        st.image('./imgs/M5.png')
         st.divider()
         
         st.page_link("https://www.nhs.uk/every-mind-matters/lifes-challenges/health-issues/", 
                      label="Health Issues - Every Mind Matters - NHS")
-        st.image('./imgs/Mental Health and Well-being/M7.png')
+        st.image('./imgs/M7.png')
         st.divider()
 
     st.markdown("<h4 style='text-align: center; font-style: italic'>Social Relationships and Friendship</h4>", unsafe_allow_html=True)
@@ -142,22 +142,22 @@ elif selected == 'Sharing':
     with col3:
         st.page_link("https://www.washingtonpost.com/wellness/2024/05/28/in-person-friendships-health-benefits/", 
                      label="Why In-Person Friendships Are Better for Health than Virtual Pals - Washington Post")
-        st.image('./imgs/Social Relationships and Friendship/S1.png')
+        st.image('./imgs/S1.png')
         st.divider()
 
     with col4:
         st.page_link("https://www.apa.org/monitor/2023/06/cover-story-science-friendship", 
                      label="The Science of Friendship - American Psychological Association")
-        st.image('./imgs/Social Relationships and Friendship/S2.png')
+        st.image('./imgs/S2.png')
         st.divider()
         st.page_link("https://www.nhs.uk/every-mind-matters/lifes-challenges/maintaining-healthy-relationships-and-mental-wellbeing/", 
                      label="Maintaining Healthy Relationships and Mental Well-Being - NHS")
-        st.image('./imgs/Social Relationships and Friendship/S3.png')
+        st.image('./imgs/S3.png')
         st.divider()
     st.markdown("<h4 style='text-align: center; font-style: italic'>Education and Vocational Aspects</h4>", unsafe_allow_html=True)
     col5, col6 = st.columns([5, 5])
     with col5:
         st.page_link("https://mcc.gse.harvard.edu/reports/on-edge",
                      label="On Edge - Harvard Graduate School of Education")
-        st.image('./imgs/Education and Vocational Aspects/E1.png')
+        st.image('./imgs/E1.png')
         st.divider()
